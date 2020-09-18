@@ -65,7 +65,7 @@ class LinkedList:
             return False
 
 
-
+# Test code
 myList = LinkedList()
 myList.push(10)
 myList.push(20)
