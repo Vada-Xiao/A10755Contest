@@ -4,7 +4,8 @@ Preparation for NCPC contest
 Data Structure + Algorithms
 
 
-# Everybody's work
+# Everybody's works
+* Deadline : 9/25 23:59:59
 * TiLing
     * Implement **BinarySearchTree** by OOP -> Create *BSTree.py* file.
         * Every tree node has one data, left pointer and right pointer.
