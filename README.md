@@ -3,6 +3,14 @@ Preparation for NCPC contest
 
 Data Structure + Algorithms
 
+# Basic steps when using git
+    1. git pull
+    2. start your programming
+    3. git status
+    4. git add
+    5. git commit -m "(Your message)"
+    6. git push
+
 
 # Everybody's works
 * Deadline : 9/25 23:59:59
