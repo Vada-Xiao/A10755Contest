@@ -27,5 +27,24 @@ def gcd(a, b):
         return b
     return gcd(b, a % b)
 
+def Fib(n):
+    if n == 1 or n == 2:
+        return 1
+    else:
+        return Fib(n - 1) + Fib(n - 2)
+
+# Quick Power method
+def QuickPow(a, b):
+    PowSum = 1
+    while b:
+        if b & 1:
+            PowSum = PowSum * a
+        b = b >> 1
+        a = a * a
+    return PowSum
+
+
 Arr = getPrimesUpTo(100)
 print(Arr)
+print(QuickPow(2,3))
+print(Fib(8))
