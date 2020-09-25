@@ -3,6 +3,8 @@ Preparation for NCPC contest
 
 Data Structure + Algorithms
 
+
+
 # Basic steps when using git
     1. git pull
     2. start your programming
