@@ -16,6 +16,27 @@ def QuickSort(array, beginIndex, endIndex):
         QuickSort(array, right + 1, endIndex)
     return
 
+        
+def heapSort(h):
+    i=len(h)
+    ans=[]
+    while i>0:
+        j=0
+        for j in range(len(h)//2):
+            c1=2*j+1
+            c2=2*j+2
+            Max=j
+            if(c1<len(h))and(h[c1]>h[Max]):
+                Max=c1
+            if(c2<len(h))and(h[c2]>h[Max]):
+                Max=c2
+            h[Max],h[j]=h[j],h[Max]
+            j+=1
+        ans.append(h[0])
+        del h[0]
+        i-=1
+    print(ans)
+
 
 # list is a keyword in python!! Everyone must prevent for using it.
 def SelectionSort(list):
@@ -34,3 +55,4 @@ TestData = [0,99,11,22,44,52,3,6,48,2,10,15]
 
 SelectionSort(TestData)
 print(TestData)
+
